@@ -11,6 +11,12 @@ tar xvf  Python-3.7.6.tar
 cd Python-3.7.6
 ./configure prefix=/root/env/python3
 make && make install
+if [ -f '/root/Python-3.7.6.tar' ];then
+    rm -rf Python-3.7.6.tar
+fi
+if [ -d '/root/Python-3.7.6' ];then
+    rm -rf /root/Python-3.7.6
+fi
 # 判断 /usr/bin/python 是否存在
 # 如果不存在，直接操作
 # 如果存在，就判断python2存在不，存在就直接删除python，否则就将python改名为ptyhon2
