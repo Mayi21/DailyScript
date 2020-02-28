@@ -11,6 +11,7 @@ cd /root
 wget https://www.python.org/ftp/python/3.7.6/Python-3.7.6.tar.xz
 xz -d Python-3.7.6.tar.xz
 tar xvf  Python-3.7.6.tar
+rm -rf Python-3.7.6.tar
 cd Python-3.7.6
 ./configure prefix=/root/env/python3
 make && make install
