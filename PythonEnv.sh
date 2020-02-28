@@ -30,8 +30,8 @@ fi
 ln -s /root/env/python3/bin/python3 /usr/bin/python
 source='#!/usr/bin/python'
 target='#!/usr/bin/python2'
-sed -i 's/${source}/${target}'/usr/bin/yum
-sed -i 's/${source}/${target}'/usr/libexec/urlgrabber-ext-down
+sed -i 's/${source}/${target}' /usr/bin/yum
+sed -i 's/${source}/${target}' /usr/libexec/urlgrabber-ext-down
 if [ -f "/usr/bin/pip" ];then
     rm -rf /usr/bin/pip
 fi
