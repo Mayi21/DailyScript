@@ -7,4 +7,9 @@ some script for daily use
 wget https://raw.githubusercontent.com/Mayi21/DailyScript/master/PythonEnv.sh && bash PythonEnv.sh
 ```  
 然后即可安装上python3.7
-## 2.
+## 2.jdk1.8环境安装
+执行
+```
+wget https://raw.githubusercontent.com/Mayi21/DailyScript/master/JavaEnv.sh && bash JavaEnv.sh
+```
+## 3.
