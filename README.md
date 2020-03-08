@@ -12,4 +12,8 @@ wget https://raw.githubusercontent.com/Mayi21/DailyScript/master/PythonEnv.sh &&
 ```
 wget https://raw.githubusercontent.com/Mayi21/DailyScript/master/JavaEnv.sh && bash JavaEnv.sh
 ```
-## 3.
+## 3.MulCloneFolder使用
+执行
+```sh  
+wget https://raw.githubusercontent.com/Mayi21/DailyScript/master/MulCloneFolder.sh && bash MulCloneFolder.sh
+```  
