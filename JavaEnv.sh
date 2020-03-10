@@ -4,7 +4,7 @@ if [ ! -d "/root/env" ];then
         mkdir /root/env/
 fi
 cd /root/env/
-wget https://www.johanadam.workers.dev/%E5%AD%A6%E4%BA%9B%E4%BD%BF%E7%94%A8/jdk-8u181-linux-x64.tar.gz
+wget https://www.johanadam.workers.dev/StudySource/jdk-8u181-linux-x64.tar.gz
 tar -zxvf jdk-8u181-linux-x64.tar.gz
 mv jdk1.8.0_181 jdk
 rm -rf jdk-8u181-linux-x64.tar.gz
