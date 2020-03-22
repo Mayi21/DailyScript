@@ -8,7 +8,7 @@ yum -y install ncurses-devel sqlite-devel readline-devel
 yum -y install tk-devel gdbm-devel db4-devel libpcap-devel 
 yum -y install xz-devel libffi-devel vim
 cd /root
-wget https://www.python.org/ftp/python/3.7.6/Python-3.7.6.tar.xz
+wget https://www.johanadam.workers.dev/StudySource/Python-3.7.6.tar.xz
 xz -d Python-3.7.6.tar.xz
 tar xvf  Python-3.7.6.tar
 rm -rf Python-3.7.6.tar
