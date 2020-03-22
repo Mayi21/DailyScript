@@ -13,3 +13,4 @@ export PATH=\$JAVA_HOME/bin:\$PATH
 export CLASSPATH=.:\$JAVA_HOME/lib/dt.jar:\$JAVA_HOME/lib/tools.jar" >> /etc/profile
 source /etc/profile
 java -version
+rm -rf JavaEnv.sh

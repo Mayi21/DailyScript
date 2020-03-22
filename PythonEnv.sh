@@ -43,4 +43,4 @@ export PATH=\$PYTHON_ENV/bin:\$PATH" >> /etc/profile
 source /etc/profile
 echo 'installed complete'
 python -V
-
+rm -rf PythonEnv.sh
