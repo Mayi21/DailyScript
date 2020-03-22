@@ -38,6 +38,9 @@ if [ -f "/usr/bin/pip" ];then
     rm -rf /usr/bin/pip
 fi
 ln -s /root/env/python3/bin/pip3 /usr/bin/pip
+echo "export PYTHON_ENV=/root/env/python3
+export PATH=\$PYTHON_ENV/bin:\$PATH" >> /etc/profile
+source /etc/profile
 echo 'installed complete'
 python -V
 
