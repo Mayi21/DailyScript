@@ -19,5 +19,5 @@ wget https://raw.githubusercontent.com/Mayi21/DailyScript/master/MulCloneFolder.
 ```  
 * MySql8.0安装
 ```sh
-wget https://
+wget https://raw.githubusercontent.com/Mayi21/DailyScript/master/MysqlEnv.sh && bash MysqlEnv.sh
 ```
