@@ -2,9 +2,12 @@
 if [ ! -d "/root/env" ];then
     mkdir /root/env/
 fi
-cd /root
+cd /root/env
 # 安装
-rpm -Uvh https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
+wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
+wget https://www.johanadam.workers.dev/StudySource/mysql-community-server-8.0.19-1.el6.x86_64.rpm
+rpm -Uvh mysql80-community-release-el7-3.noarch.rpm
+rpm -Uvh mysql-community-server-8.0.19-1.el6.x86_64.rpm
 yum -y install mysql-community-server
 # 启动服务
 systemctl start mysqld.service
@@ -12,8 +15,4 @@ systemctl start mysqld.service
 str=`grep "password" /var/log/mysqld.log`
 array=(${str// / })
 oldPas=${array[-1]}
-read -p "new password" newPas
-mysql -u root -p <<EOF
-$oldPas
-show databases;
-EOF
+echo $oldPas
