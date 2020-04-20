@@ -21,10 +21,8 @@ status=(${status//:/ })
 status=${status[1]}
 # not login
 if [ $status == "0"];then
-read -p "input bduss:" bduss
-$pcsPath login -bduss=$bduss << EOF
-exit
-EOF
+    read -p "input bduss:" bduss
+    $pcsPath login -bduss=$bduss
 fi
 # read user input
 read -p "input google drive folder/file path(example:/Film/):" path
