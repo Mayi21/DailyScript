@@ -15,9 +15,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/Mayi21/DailyScript
 * ### Google Drive转存文件到百度云
 执行
 首先具备环境:
-* `rclone`:并配置好,脚本中固定名字为`GoogleDrive`
-* `Baidu`:这里使用[BaiduPCS-GO](https://github.com/iikira/BaiduPCS-Go/releases),支持在Linux下使用.登录上账号.
-* ``
+* `rclone`:配置好,脚本中固定名字为`GoogleDrive`
 ```sh
 wget --no-check-certificate https://raw.githubusercontent.com/Mayi21/DailyScript/master/GoogleDriveToBaidu.sh && bash GoogleDriveToBaidu.sh
 ```
