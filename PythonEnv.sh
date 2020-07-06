@@ -8,18 +8,16 @@ yum -y install ncurses-devel sqlite-devel readline-devel
 yum -y install tk-devel gdbm-devel db4-devel libpcap-devel 
 yum -y install xz-devel libffi-devel vim
 cd /root
-wget https://www.johanadam.workers.dev/StudySource/Python-3.7.6.tar.xz
-xz -d Python-3.7.6.tar.xz
-tar xvf  Python-3.7.6.tar
-rm -rf Python-3.7.6.tar
-cd Python-3.7.6
+wget https://www.python.org/ftp/python/3.7.8/Python-3.7.8.tgz
+tar -zxvf Python-3.7.8.tgz
+cd Python-3.7.8
 ./configure prefix=/root/env/python3
 make && make install
-if [ -f '/root/Python-3.7.6.tar' ];then
-    rm -rf Python-3.7.6.tar
+if [ -f '/root/Python-3.7.8.tgz' ];then
+    rm -rf Python-3.7.8.tgz
 fi
-if [ -d '/root/Python-3.7.6' ];then
-    rm -rf /root/Python-3.7.6
+if [ -d '/root/Python-3.7.8' ];then
+    rm -rf /root/Python-3.7.8
 fi
 # 判断 /usr/bin/python 是否存在
 # 如果不存在，直接操作
