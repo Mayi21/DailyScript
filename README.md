@@ -26,4 +26,13 @@ wget --no-check-certificate https://git.io/JqtV5
 ```sh
 bash CommonEnv.sh
 ```  
-然后根据自己的选择，便可以安装对应的开发环境。
+* 选择要执行的选项
+```
+开发环境集合安装 [v0.01] by xaohii.com
+环境集成安装脚本。目前已经支持python(3.7),JDK(1.8),GO(1.16)
+1.安装Python(1.install python)
+2.安装JDK(2.instal jdk)
+3.安装GO(3.install GO)
+4.退出(exit)
+请选择:
+```
