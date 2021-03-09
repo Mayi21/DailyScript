@@ -1,4 +1,4 @@
-# DailyScript
+# 便捷安装常用开发环境
 
 
 [![GitHub Stars](https://img.shields.io/github/stars/Mayi21/DailyScript.svg?style=flat-square&label=Stars&logo=github)](https://github.com/Mayi21/DailyScript/stargazers)
@@ -24,7 +24,7 @@ wget --no-check-certificate https://git.io/JqtV5
 ```
 * 运行脚本  
 ```sh
-bash CommonEnv.sh
+bash JqtV5
 ```  
 * 选择要执行的选项
 ```
