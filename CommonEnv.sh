@@ -1,6 +1,4 @@
-# a set of common env
-
-## 首先提供选择，然用户选在安装什么
+echo '开发环境集合安装 [v0.01] by xaohii.com'
 
 ## 检查系统
 checkSystem(){
