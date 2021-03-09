@@ -4,7 +4,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/Mayi21/DailyScript.svg?style=flat-square&label=Stars&logo=github)](https://github.com/Mayi21/DailyScript/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/Mayi21/DailyScript.svg?style=flat-square&label=Forks&logo=github)](https://github.com/Mayi21/DailyScript/fork)
 
-## 常用环境安装(JAVA1.8,GO1.16,PYTHON3.x)
+## 常用环境安装[Jdk,Go,Python]
 ## 项目地址
 
 https://github.com/Mayi21/DailyScript
